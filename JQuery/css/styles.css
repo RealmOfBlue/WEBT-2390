@@ -14,6 +14,10 @@ header img {
 nav {
     
     display: block;
+    border-bottom: #1D2E3B;
+    border-style: double;
+    border-width: 2px;
+    padding: 0.5%;
     
 }
 
@@ -32,4 +36,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.active {
+    font-weight: 900;
+}
