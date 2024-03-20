@@ -1,13 +1,35 @@
 header img {
     display: block;
-    margin-left: 5%;
+    margin: 0 auto;
     width: 50%;
 
 }
 
 #accordion {
     background-color: #010101 ;
-    display: block;
-    margin-left: 5%;
-    width: 50%;
+  
+    
 }
+
+nav {
+    
+    display: block;
+    
+}
+
+nav a, footer {
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a:hover {
+    color: #1D2E3B;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
