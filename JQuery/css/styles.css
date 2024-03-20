@@ -28,9 +28,6 @@ nav a, footer {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-a:hover {
-    color: #1D2E3B;
-}
 
 body {
     margin: 0;
@@ -64,7 +61,7 @@ p {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width:900px) {
 
 
     .mobile {
@@ -83,23 +80,31 @@ p {
         display: none;
     }
     
-    button {
+    li:hover {
+        background-color: #1D2E3B;
+        color: white;
+    }
+    /* button {
         background-color: #1D2E3B;
         color: white;
         border-style: none;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         
     }
-	
+	 */
 	}
 
-    @media (min-width: 1000px) {
+    @media (min-width: 900px) {
+
         .mobile {
             display: none;
         }
     
         .desktop {
             display: block;
+        }
+        a:hover {
+            color: #1D2E3B;
         }
     }
 
