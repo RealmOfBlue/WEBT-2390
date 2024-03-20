@@ -78,6 +78,10 @@ p {
 	li {
         list-style: none;
     }
+
+    ul {
+        display: none;
+    }
     
     button {
         background-color: #1D2E3B;
