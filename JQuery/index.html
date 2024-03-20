@@ -21,139 +21,40 @@
         </nav>
         <img src="images/jquery-logo.png" alt="jqlogo" class="center">
     </header>
-    <div id="accordion">
-        <h3>Input Value</h3>
-        <div>
-          <p>
-            <script>
-                $( function() {
-                  var spinner = $( "#spinner" ).spinner();
-               
-                  $( "#disable" ).on( "click", function() {
-                    if ( spinner.spinner( "option", "disabled" ) ) {
-                      spinner.spinner( "enable" );
-                    } else {
-                      spinner.spinner( "disable" );
-                    }
-                  });
-                  $( "#destroy" ).on( "click", function() {
-                    if ( spinner.spinner( "instance" ) ) {
-                      spinner.spinner( "destroy" );
-                    } else {
-                      spinner.spinner();
-                    }
-                  });
-                  $( "#getvalue" ).on( "click", function() {
-                    alert( spinner.spinner( "value" ) );
-                  });
-                  $( "#setvalue" ).on( "click", function() {
-                    spinner.spinner( "value", 5 );
-                  });
-               
-                  $( "button" ).button();
-                } );
-                </script>
-          
-                <p>
-                  <label for="spinner">Select a value:</label>
-                  <input id="spinner" name="value">
-                </p>
-                 
-                <p>
-                  <button id="disable">Toggle disable/enable</button>
-                  <button id="destroy">Toggle widget</button>
-                </p>
-                 
-                <p>
-                  <button id="getvalue">Get value</button>
-                  <button id="setvalue">Set value to 5</button>
-                </p>
-          </p>
-        </div>
-        <h3>Input Date</h3>
-        <div>
-          <p>
-            <script>
-                $( function() {
-                  $( "#datepicker" ).datepicker();
-                } );
-                </script>
-          
-          
-          <p>Date: <input type="text" id="datepicker"></p>
-          </p>
-        </div>
-        <h3>Control Group</h3>
-        <div>
-          <p>
-            <style>
-                .ui-controlgroup-vertical {
-                  width: 150px;
-                }
-                .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
-                .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
-                  text-align: center;
-                }
-                #car-type-button {
-                  width: 120px;
-                }
-                .ui-controlgroup-horizontal .ui-spinner-input {
-                  width: 20px;
-                }
-              </style>
-              <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-              <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-              <script>
-              $( function() {
-                $( ".controlgroup" ).controlgroup()
-                $( ".controlgroup-vertical" ).controlgroup({
-                  "direction": "vertical"
-                });
-              } );
-              </script>
-              <div class="widget">
-                <fieldset>
-                  <legend>Rental Car</legend>
-                  <div class="controlgroup">
-                    <select id="car-type">
-                      <option>Compact car</option>
-                      <option>Midsize car</option>
-                      <option>Full size car</option>
-                      <option>SUV</option>
-                      <option>Luxury</option>
-                      <option>Truck</option>
-                      <option>Van</option>
-                    </select>
-                    <label for="transmission-standard">Standard</label>
-                    <input type="radio" name="transmission" id="transmission-standard">
-                    <label for="transmission-automatic">Automatic</label>
-                    <input type="radio" name="transmission" id="transmission-automatic">
-                    <label for="insurance">Insurance</label>
-                    <input type="checkbox" name="insurance" id="insurance">
-                    <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
-                    <input id="horizontal-spinner" class="ui-spinner-input">
-                    <button>Book Now!</button>
-                  </div>
-            
-              </div>
-          </p>
-        </div>
-        </div>
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-<script>
-    $( function() {
-    $( "#accordion" ).accordion();
-    $("body").css("background-color", "#010101");
-    $("#accordion").accordion('option', 'position', 'center');
-    $("nav").css("background-color", "#22ABE2");
-    $("footer").css("background-color", "#1D2E3B");
-    $("h3").css("font-size", "105%");
-    $("p").css("color", "#C5C5C5");
-  } );
-</script>
 
+
+    <div id="accordion">
+        <h3>Header</h3>
+        <div>
+          <p>
+            <h3 class="medium-text"> Header </h3>
+          </p>
+        </div>
+        <h3>Bigger Header</h3>
+        <div>
+          <p>
+            <h2 class="big-text"> Bigger Header </h2>
+          </p>
+        </div>
+        <h3>Biggest Header</h3>
+        <div>
+          <p>
+            <h1 class="biggest-text"> Biggest Header </h1>
+          </p>
+        </div>
+        <h3> Cat</h3>
+        <div>
+          <p>
+            <p div class="cat"> cat </p>
+            <img src="images/cat10.png" alt="..." class="cat-pic">
+          </p>
+        </div>
+      </div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src="js/scripts.js"></script>
 <footer>
     <p>&copy; Blue Designs 2024 </p>
 </footer>

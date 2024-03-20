@@ -39,3 +39,63 @@ body {
 .active {
     font-weight: 900;
 }
+
+h3, h2, h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#textbox {
+    text-align: center;
+    background-color: #010101;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cat-pic {
+    width: 8%;
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+	li {
+        list-style: none;
+    }
+    
+    button {
+        background-color: #1D2E3B;
+        color: white;
+        border-style: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+	
+	}
+
+    @media (min-width: 1000px) {
+        .mobile {
+            display: none;
+        }
+    
+        .desktop {
+            display: block;
+        }
+    }
+
