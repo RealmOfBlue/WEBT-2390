@@ -1,0 +1,103 @@
+body {
+    background-color: #72A8D0;
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 250%;
+   
+}
+header {
+    background-image: url("images/Patriotic_Colored.png");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+
+
+.illust {
+    width: 5%;
+}
+
+header img {
+    margin-left: 37.2%;
+    display: block;
+    float: center;
+    margin-bottom: -12%;
+    width: 25%;
+}
+.cats {
+
+    margin: auto;
+    display: block;
+    width: 182px;
+
+
+}
+
+h2 {
+    color: #c3daec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 75;
+}
+
+h3 {
+    color: #9fcef2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 50;
+}
+
+
+footer {
+    padding: 12%;
+    margin-top: 90%;
+    text-align: left;
+    color:  #9fcef2;
+}
+
+
+  .column {
+    width: 195px;
+    padding-bottom: 100px;
+    height: 230px;
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+    
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: 1px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 10px;
+  }
+
+
+
+
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+ 
