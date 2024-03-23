@@ -1,7 +1,7 @@
 # WEBT-2390
 <html>
   <li>
-  <a href="jQuery/index.html">Intro to jQuery (jQuery Scripts, Effects, & CSS)</a>
+  <a href="jQuery/index.html">Intro to jQuery (jQuery Text, Effects, & CSS)</a>
   </li>
   <li>
   <a href="jQuery2/index.html">jQuery Attributes (Cats.Org) </a>
