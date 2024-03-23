@@ -1,0 +1,146 @@
+-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to jQuery</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/dark-hive/jquery-ui.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="/resources/demos/external/jquery-mousewheel/jquery.mousewheel.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="desktop">
+            <a href="index.html">jQuery Text</a>
+            <a href="effects.html" class="active">|  &MediumSpace; &MediumSpace; &MediumSpace; jQuery Effects</a>
+            <a href="css.html">| &MediumSpace; &MediumSpace; &MediumSpace; jQuery CSS</a>
+    
+        </nav>
+        
+        
+        <nav class="mobile">
+            <button class="ui-button ui-widget ui-corner-all">Menu</button>
+        <ul>
+        <li><a href="index.html">jQuery Text</a></li>
+        <li><a href="effects.html" class ="active">jQuery Effects</a></li>
+        <li><a href="css.html">jQuery CSS</a></li>
+        </ul>
+        </nav>
+        <img src="images/jquery-logo.png" alt="jqlogo" class="center">
+    </header>
+
+    <div id="accordion">
+        <h3>Input Value</h3>
+        <div>
+          <p>
+            <script>
+                $( function() {
+                  var spinner = $( "#spinner" ).spinner();
+               
+                  $( "#disable" ).on( "click", function() {
+                    if ( spinner.spinner( "option", "disabled" ) ) {
+                      spinner.spinner( "enable" );
+                    } else {
+                      spinner.spinner( "disable" );
+                    }
+                  });
+                  $( "#destroy" ).on( "click", function() {
+                    if ( spinner.spinner( "instance" ) ) {
+                      spinner.spinner( "destroy" );
+                    } else {
+                      spinner.spinner();
+                    }
+                  });
+                  $( "#getvalue" ).on( "click", function() {
+                    alert( spinner.spinner( "value" ) );
+                  });
+                  $( "#setvalue" ).on( "click", function() {
+                    spinner.spinner( "value", 5 );
+                  });
+               
+                  $( "button" ).button();
+                } );
+                </script>
+          
+                <p>
+                  <label for="spinner">Select a value:</label>
+                  <input id="spinner" name="value">
+                </p>
+                 
+                <p>
+                  <button id="disable">Toggle disable/enable</button>
+                  <button id="destroy">Toggle widget</button>
+                </p>
+                 
+                <p>
+                  <button id="getvalue">Get value</button>
+                  <button id="setvalue">Set value to 5</button>
+                </p>
+        </div>
+        <h3>Input Date</h3>
+        <div>
+          <p>
+            <script>
+                $( function() {
+                  $( "#datepicker" ).datepicker();
+                } );
+                </script>
+          
+          
+          Date: <input type="text" id="datepicker"></p>
+        
+        </div>
+        <h3>Control Group</h3>
+        <div>
+              <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+              <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+              <script>
+              $( function() {
+                $( ".controlgroup" ).controlgroup()
+                $( ".controlgroup-vertical" ).controlgroup({
+                  "direction": "vertical"
+                });
+              } );
+              </script>
+              <div class="widget">
+                <fieldset>
+                  <legend>Rental Car</legend>
+                  <div class="controlgroup">
+                    <select id="car-type">
+                      <option>Compact car</option>
+                      <option>Midsize car</option>
+                      <option>Full size car</option>
+                      <option>SUV</option>
+                      <option>Luxury</option>
+                      <option>Truck</option>
+                      <option>Van</option>
+                    </select>
+                    <label for="transmission-standard">Standard</label>
+                    <input type="radio" name="transmission" id="transmission-standard">
+                    <label for="transmission-automatic">Automatic</label>
+                    <input type="radio" name="transmission" id="transmission-automatic">
+                    <label for="insurance">Insurance</label>
+                    <input type="checkbox" name="insurance" id="insurance">
+                    <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+                    <input id="horizontal-spinner" class="ui-spinner-input">
+                    <button>Book Now!</button>
+               
+                  </div>
+                </fieldset>
+              </div> 
+        </div> 
+    </div>
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src="js/scripts.js"></script>
+<p></p>
+<footer>
+    <p>&copy; Blue Designs 2024 </p>
+</footer>
+</body>
+</html>
