@@ -34,7 +34,7 @@ header img {
 
     margin: auto;
     display: block;
-    width: 182px;
+    width: 183px;
 
 
 }
@@ -58,9 +58,10 @@ h3 {
 
 footer {
     padding: 12%;
-    margin-top: 90%;
+    margin-top: 180%;
     text-align: left;
     color:  #9fcef2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
