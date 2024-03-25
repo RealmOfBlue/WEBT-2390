@@ -21,7 +21,6 @@
     });
   } );
 
-
   $( function() {
     $( ".column" ).sortable({
       connectWith: ".column",
@@ -30,3 +29,46 @@
       placeholder: "portlet-placeholder ui-corner-all"
     }); 
  } );
+
+
+
+ $( function() {
+  $(".oreo").attr("src", "images/kitty1ready.png");
+
+  $(".oreo").click(function () {
+    $(".oreo").attr("src", "images/oreo-desc.png");
+  });
+  $(".oreo").dblclick(function () {
+    $(".oreo").attr("src", "images/kitty1ready.png");
+  });
+
+  $(".bob").click(function () {
+    $(".bob").attr("src", "images/bob-desc.png");
+  });
+  $(".bob").dblclick(function () {
+    $(".bob").attr("src", "images/kitty5ready.png");
+  });
+
+
+  $(".sir-fluffykins").click(function () {
+    $(".sir-fluffykins").attr("src", "images/fluffykins-desc.png");
+  });
+  $(".sir-fluffykins").dblclick(function () {
+    $(".sir-fluffykins").attr("src", "images/kitty3ready.png");
+  });
+
+  $(".ashely").click(function () {
+    $(".ashely").attr("src", "images/ashely-desc.png");
+  });
+  $(".ashely").dblclick(function () {
+    $(".ashely").attr("src", "images/kitty2ready.png");
+  });
+
+  $(".pringle").click(function () {
+    $(".pringle").attr("src", "images/pringle-desc.png");
+  });
+  $(".pringle").dblclick(function () {
+    $(".pringle").attr("src", "images/kitty4ready.png");
+  });
+
+} );
