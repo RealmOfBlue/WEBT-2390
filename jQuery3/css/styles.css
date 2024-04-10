@@ -113,8 +113,10 @@ h1 {
 footer {
     background-color: #F1A413;
     position: absolute;
-    height: 2%;
+    bottom: 0;
+    height: 400px;
     width: 100%;
+    
 
 
 }
