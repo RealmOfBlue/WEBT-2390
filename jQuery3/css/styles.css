@@ -5,12 +5,26 @@ body {
     font-weight: 600;
 }
 
-h1, h2, h3 {
+h1, h3 {
     font-family: 'Bungee Shade';
     font-weight: 900 !important;
-    font-size: 125% !important;
+    font-size: 120% !important;
     
 }
+
+h2 {
+    font-family: 'Bungee Shade';
+    font-weight: 900 !important;
+    font-size: 200% !important;
+   
+    
+}
+
+h2:hover {
+    color: white !important;
+}
+
+
 
 h1 {
     font-size: 300% !important;
@@ -20,16 +34,18 @@ h1 {
     border-width: 4px;
 }
 
+
 nav a {
     color: #DD4011 !important;
     font-family: 'Bungee Shade';
     background-color: #F1A413;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 1%;
     font-weight: 900 !important;
     font-size: 125% !important;
     border-color: #DD4011;
     border-style: solid;
+    margin-right: 75% !important;
 }
 
 nav a:hover {
@@ -46,14 +62,59 @@ nav li {
     position: fixed;
 }
 
-
-#accordion {
-    width: 100% !important;
+.most-wanted {
+    margin: 0 auto !important;
 }
 
+.item {
+    text-align: center;
+    color: #DD4011 !important;
+    width: 330px;
+    padding: 1.25%;
+    /* background-color: #F1A413;
+    border-radius: 10px;
+    padding: 1.25%;
+    font-weight: 900 !important;
+    font-size: 125% !important;
+    border-color: #DD4011;
+    border-style: solid;
+    -webkit-border-radius: 10, 10, 10, 10;
+    -moz-border-radius: 10, 10, 10, 10; */
+}
 
+.item-full {
+    text-align: center;
+    color: #DD4011 !important;
+    width: 50%;
+    float: left;
+    /* padding: 1.25%; */
+    /* background-color: #F1A413;
+    border-radius: 10px;
+    padding: 1.25%;
+    font-weight: 900 !important;
+    font-size: 125% !important;
+    border-color: #DD4011;
+    border-style: solid;
+    -webkit-border-radius: 10, 10, 10, 10;
+    -moz-border-radius: 10, 10, 10, 10; */
+}
 
+.under {
+    width: 250px;
+}
 
+.preview {
+    width: 250px;
+}
+
+.selected {
+    float: right;
+    width: 46%;
+    border-color: #DD4011;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 10px;
+}
 
 /* colors:
 #F1A413 - yellow
@@ -71,6 +132,13 @@ nav li {
 
     .mobile {
         display: block;
+    }
+
+    .mobile button {
+        font-family: 'Bungee Shade';
+        font-weight: 900 !important;
+        font-size: 125% !important;
+        color: #DD4011 !important;
     }
 
     .desktop {
@@ -106,6 +174,7 @@ nav li {
     
     .desktop {
      display: block;
+
     }
     a:hover {
        color: #1D2E3B;
