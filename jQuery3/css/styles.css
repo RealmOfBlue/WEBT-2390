@@ -85,7 +85,7 @@ nav li {
 .item-full {
     text-align: center;
     color: #DD4011 !important;
-    width: 50%;
+    width: 60%;
     float: left;
     /* padding: 1.25%; */
     /* background-color: #F1A413;
@@ -109,12 +109,31 @@ nav li {
 
 .selected {
     float: right;
-    width: 46%;
+    width: 36%;
+    max-height: 1175px;
     border-color: #DD4011;
     border-style: solid;
     border-width: 15px;
     border-radius: 10px;
 }
+.selected-img, .selected-desc {
+    width: 100%;
+}
+
+.big {
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+    padding: 6% !important;
+}
+
+footer {
+    background-color: #F1A413;
+
+}
+
+
+
 
 /* colors:
 #F1A413 - yellow
