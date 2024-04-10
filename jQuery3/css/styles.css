@@ -112,17 +112,13 @@ h1 {
 
 footer {
     background-color: #F1A413;
-    position: absolute;
-    bottom: 0;
-    height: 400px;
+    margin-top: 100%;
     width: 100%;
-    
-
-
+    padding: 2%;
 }
 
 
-/* FORMATTING */
+
 
 /* colors:
 #F1A413 - yellow
@@ -213,6 +209,9 @@ footer {
     .desktop li {
         padding: 1%;
     }
-    
+
+    li {
+        list-style: none;
+    }
 
     }
