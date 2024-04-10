@@ -25,7 +25,6 @@ h2:hover {
 }
 
 
-
 h1 {
     font-size: 300% !important;
     color: #A1D4B1;
@@ -34,26 +33,10 @@ h1 {
     border-width: 4px;
 }
 
-
-nav a {
-    color: #DD4011 !important;
-    font-family: 'Bungee Shade';
-    background-color: #F1A413;
-    border-radius: 10px;
-    padding: 1%;
+.attr {
+    font-family: 'Bungee Shade' !important;
     font-weight: 900 !important;
-    font-size: 125% !important;
-    border-color: #DD4011;
-    border-style: solid;
-    margin-right: 75% !important;
-}
-
-nav a:hover {
-    color: white !important;
-}
-
-nav li {
-    padding: 1%;
+    font-size: 120% !important;
 }
 
 .logo {
@@ -110,7 +93,6 @@ nav li {
 .selected {
     float: right;
     width: 36%;
-    max-height: 1175px;
     border-color: #DD4011;
     border-style: solid;
     border-width: 15px;
@@ -122,16 +104,18 @@ nav li {
 
 .big {
     width: 100%;
-    font-size: 150%;
+    font-size: 300% !important;
     text-align: center;
     padding: 6% !important;
+    font-family: 'Bungee Shade' !important;
 }
 
 footer {
     background-color: #F1A413;
     position: absolute;
     height: 2%;
-    width: 100%
+    width: 100%;
+
 
 }
 
@@ -206,5 +190,27 @@ footer {
     .logo {
         margin-left: 64%;
     }
+
+    .desktop a {
+        color: #DD4011 !important;
+        font-family: 'Bungee Shade';
+        background-color: #F1A413;
+        border-radius: 10px;
+        padding: 1%;
+        font-weight: 900 !important;
+        font-size: 125% !important;
+        border-color: #DD4011;
+        border-style: solid;
+        margin-right: 75% !important;
+    }
+    
+    .desktop a:hover {
+        color: white !important;
+    }
+    
+    .desktop li {
+        padding: 1%;
+    }
+    
 
     }
