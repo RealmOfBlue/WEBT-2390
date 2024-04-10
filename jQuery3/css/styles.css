@@ -59,7 +59,7 @@ nav li {
 .logo {
     float: right;
     margin-left: 62%;
-    position: fixed;
+    position: fixed !important;
 }
 
 .most-wanted {
@@ -129,11 +129,14 @@ nav li {
 
 footer {
     background-color: #F1A413;
+    position: absolute;
+    height: 2%;
+    width: 100%
 
 }
 
 
-
+/* FORMATTING */
 
 /* colors:
 #F1A413 - yellow
