@@ -7,6 +7,6 @@
   <a href="jQuery2/index.html">jQuery Attributes (Cats.Org) </a>
   </li>
   <li>
-  <a href="index.html">Project 3</a>
+  <a href="jQuery3/index.html">jQuery Project (Billy Mac's Burgers & Rings)</a>
   </li>
 </html>
