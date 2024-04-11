@@ -309,8 +309,7 @@ footer p {
 
         width: 100%;
         float: none;
-        margin-left: 0 auto;
-        margin-right: 0 auto;
+        margin: 0 auto;
         margin-top: 5%;
 
     
@@ -329,7 +328,7 @@ footer p {
 
         width: 100%;
         float: none;
-        margin-left: 0 auto;   
+        margin: 0 auto;   
     
     }
 
