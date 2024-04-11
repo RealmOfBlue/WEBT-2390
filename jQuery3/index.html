@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro to jQuery</title>
+    <title>Billy Mac's Burgers and Rings</title>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/custom%202/jquery-ui.css">
     <link href="jquery-ui-1.13.2.billy-mac/jquery-ui.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -22,11 +22,12 @@
             <div>
     
                 <ul class="desktop">
-                    
-                    <li><a href="index.html" class="active">MENU</a></li>
-                    <li><a href="arcade.html">ARCADE</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                
+        
+                    <li><a href="index.html" class="active" onclick="window.open('index.html', '_self');">MENU</a></li>
+                    <li><a href="arcade.html" onclick="window.open('arcade.html', '_self');">ARCADE</a></li>
+                    <li><a href="about.html" onclick="window.open('about.html', '_self');">ABOUT</a></li>
+                    <li><a href="contact.html" onclick="window.open('contact.html', '_self');">CONTACT</a></li>
                     
                 </ul>
         
@@ -34,15 +35,19 @@
           </div>
     
           <div class="mobile">
-            <button class="ui-button ui-widget ui-corner-all">Menu</button>
+            <button class="ui-button ui-widget ui-corner-all">Menu
+                <img src="images/billy-mac-logo@2x.png" alt="bmlogo" class="logo" style="width: 20%;">
+            </button>
+            <div>
         <ul class="mobile">
 
-        <li><a href="index.html" class="active">MENU</a></li>
-        <li><a href="arcade.html">ARCADE</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="index.html" class="active" onclick="window.open('index.html', '_self');">MENU</a></li>
+            <li><a href="arcade.html" onclick="window.open('arcade.html', '_self');">ARCADE</a></li>
+            <li><a href="about.html" onclick="window.open('about.html', '_self');">ABOUT</a></li>
+            <li><a href="contact.html" onclick="window.open('contact.html', '_self');">CONTACT</a></li>
 
         </ul>
+            </div>
         </div>
     </header>
     
@@ -109,7 +114,8 @@
                     <div class="accordion item">
                         <h3>HAPPY B-DAY TO YOU</h3>
                         <div>
-                            <p>Treat yourself! Birthday, Sundae, or Tuesday, our signature hot 
+                            <p>Treat yourself! Birthday, Sundae, or just another Tuesday, 
+                                our signature hot 
                                 fudge sundae is here for the occasion with rainbow sprinkles, 
                                 creamy vanilla ice cream, and
                                 rich hot fudge.
@@ -129,12 +135,11 @@
                 <div class="accordion item">
                     <h3>BILLY-MAC-N-CHEESE</h3>
                     <div>
-                        <p>Our pride and joy. Dig into this juicy quarter-pound angus beef 
-                        patty topped with bacon, cheese, lettuce, tomato, 
-                        Mac Sauce™, and thin, crispy onion rings for 
-                        a satisfying crunch.
+                        <p>This bowl of Mac-n-Cheese took a couple tips from grandma.  
+                            Thick, gooey cheese with a dash of love, 
+                            this is as close to homemade as it gets!
                         </p>
-                        <p>COMBO - $10.99 | ENTREE - $8.99</p>
+                        <p>SMALL - $1.99 | MEDIUM - $2.99 | LARGE - $4.99 | ADD BACON - + $.99</p>
                         <button class="ui-button">ORDER NOW</button>
             
                     </div>
@@ -148,7 +153,7 @@
                     <div>
                         <p>Our famous hand-breaded onion rings, 
                             perfectly golden and crispy on the outside while tender 
-                            and flavorful on the inside, are all but irresistable.
+                            and flavorful on the inside, are all but irresistible.
                         </p>
                         <p>SMALL - $2.99 | MEDIUM - $3.99
                             | LARGE - $5.99 | ADD CHEESE - + $.99</p>
@@ -163,15 +168,13 @@
                 <div class="accordion item">
                     <h3>TAKE ME TO CHURCH</h3>
                     <div>
-                        <p>Can you take the heat?
-                            These dogs are Chicago-style with 
-                            spicy Pepperoncini peppers, 
-                            melted cheese, fresh tomato, tangy relish, 
-                            and zesty mustard, 
-                            delivering a burst of heated 
-                            flavor in every bite.
+                        <p>Are those marshmallows? Yes. 
+                            Are you dreaming? No. 
+                            This sundae features the richest of hot fudges 
+                            and the sweetest of mallows, all combined 
+                            to create a spiritual experience.
                         </p>
-                        <p>COMBO - $9.99 | ENTREE - $7.99</p>
+                        <p>SMALL - $1.99 | MEDIUM - $2.99 | LARGE - $4.99 </p>
                         <button class="ui-button">ORDER NOW</button>
             
                     </div>
@@ -183,13 +186,12 @@
                 <div class="accordion item">
                     <h3>BILLY BASIC</h3>
                     <div>
-                        <p>Treat yourself! Birthday, Sundae, or Tuesday, our signature hot 
-                            fudge sundae is here for the occasion with rainbow sprinkles, 
-                            creamy vanilla ice cream, and
-                            rich hot fudge.
+                        <p>Taste timelessness in this 100% Angus beef patty 
+                            topped with melted American cheese, fresh tomato, lettuce,
+                            onion, and the classic triple threat: 
+                            mustard, mayo, and ketchup. 
                         </p>
-                        <p>SMALL - $1.99 | MEDIUM - $2.99
-                            | LARGE - $4.99 </p>
+                        <p>COMBO - $9.99 | ENTREE - $6.99 </p>
                         <button class="ui-button">ORDER NOW</button>
             
                     </div>
@@ -199,6 +201,152 @@
     </tr>
     
     </table>
+
+
+
+    <div class="most-wanted-mobile">
+
+        
+        <img src="images/entrees/billy-mac.png" alt="billy">
+            <div class="ui-accordion item">
+                <h3>THE BILLY MAC</h3>
+                    <div>
+                        <p>Our pride and joy. Dig into this juicy quarter-pound angus beef 
+                            patty topped with bacon, cheese, lettuce, tomato, 
+                            Mac Sauce™, and thin, crispy onion rings for 
+                            a satisfying crunch.
+                        </p>
+                        <p>COMBO - $10.99 | ENTREE - $8.99</p>
+                        <button class="ui-button">ORDER NOW</button>
+                
+                    </div>
+                </div>
+    
+            
+                    <img src="images/sides/ring-dingers.png" alt="rings">
+                    <div class="ui-accordion item">
+                        <h3>RING-DINGERS</h3>
+                        <div>
+                            <p>Our famous hand-breaded onion rings, 
+                                perfectly golden and crispy on the outside while tender 
+                                and flavorful on the inside, are all but irresistable.
+                            </p>
+                            <p>SMALL - $2.99 | MEDIUM - $3.99
+                                | LARGE - $5.99 | ADD CHEESE - + $.99</p>
+                            <button class="ui-button">ORDER NOW</button>
+                
+                        </div>
+                      </div>
+    
+            
+                    <img src="images/entrees/hot-diggity-dogs.png" alt="diggity">
+                    <div class="ui-accordion item">
+                        <h3>HOT DIGGITY DOGS</h3>
+                        <div>
+                            <p>Can you take the heat?
+                                These dogs are Chicago-style with 
+                                spicy Pepperoncini peppers, 
+                                melted cheese, fresh tomato, tangy relish, 
+                                and zesty mustard, 
+                                delivering a burst of heated 
+                                flavor in every bite.
+                            </p>
+                            <p>COMBO - $9.99 | ENTREE - $7.99</p>
+                            <button class="ui-button">ORDER NOW</button>
+                
+                        </div>
+                      </div>
+    
+            
+                    <img src="images/desserts/happy-birthday-to-you-sundae.png" alt="b-day">
+                    <div class="accordion item">
+                        <h3>HAPPY B-DAY TO YOU</h3>
+                        <div>
+                            <p>Treat yourself! Birthday, Sundae, or just another Tuesday, 
+                                our signature hot 
+                                fudge sundae is here for the occasion with rainbow sprinkles, 
+                                creamy vanilla ice cream, and
+                                rich hot fudge.
+                            </p>
+                            <p>SMALL - $1.99 | MEDIUM - $2.99
+                                | LARGE - $4.99 </p>
+                            <button class="ui-button">ORDER NOW</button>
+                
+                        </div>
+                      </div>
+       
+                <img src="images/sides/billy-mac-n-cheese.png" alt="mac">
+                <div class="accordion item">
+                    <h3>BILLY-MAC-N-CHEESE</h3>
+                    <div>
+                        <p>This bowl of Mac-n-Cheese took a couple tips from grandma.  
+                            Thick, gooey cheese with a dash of love, 
+                            this is as close to homemade as it gets!
+                        </p>
+                        <p>SMALL - $1.99 | MEDIUM - $2.99 | LARGE - $4.99 | ADD BACON - + $.99</p>
+                        <button class="ui-button">ORDER NOW</button>
+            
+                    </div>
+                  </div>
+
+
+                <img src="images/entrees/double-troubles.png" alt="doubles">
+                <div class="accordion item">
+                    <h3>DOUBLE-TROUBLES</h3>
+                    <div>
+                        <p>Our famous hand-breaded onion rings, 
+                            perfectly golden and crispy on the outside while tender 
+                            and flavorful on the inside, are all but irresistible.
+                        </p>
+                        <p>SMALL - $2.99 | MEDIUM - $3.99
+                            | LARGE - $5.99 | ADD CHEESE - + $.99</p>
+                        <button class="ui-button">ORDER NOW</button>
+            
+                    </div>
+                  </div>
+
+        
+                <img src="images/desserts/take-me-to-church-chocolate-sundae.png" alt="church">
+                <div class="accordion item">
+                    <h3>TAKE ME TO CHURCH</h3>
+                    <div>
+                        <p>Are those marshmallows? Yes. 
+                            Are you dreaming? No. 
+                            This sundae features the richest of hot fudges 
+                            and the sweetest of mallows, all combined 
+                            to create a spiritual experience.
+                        </p>
+                        <p>SMALL - $1.99 | MEDIUM - $2.99 | LARGE - $4.99 </p>
+                        <button class="ui-button">ORDER NOW</button>
+            
+                    </div>
+                  </div>
+
+           
+                <img src="images/entrees/billy-basic.png" alt="basic">
+                <div class="accordion item">
+                    <h3>BILLY BASIC</h3>
+                    <div>
+                        <p>Taste timelessness in this 100% Angus beef patty 
+                            topped with melted American cheese, fresh tomato, lettuce,
+                            onion, and the classic triple threat: 
+                            mustard, mayo, and ketchup. 
+                        </p>
+                        <p>COMBO - $9.99 | ENTREE - $6.99 </p>
+                        <button class="ui-button">ORDER NOW</button>
+            
+                    </div>
+                  </div>
+
+           
+</div>
+
+
+
+
+
+
+
 
     <h1>FULL MENU</h1>
    
@@ -256,43 +404,37 @@
             <table class="full-menu">
                 <tr>
                     <td>
-                        <img src="images/entrees/billy-mac.png" alt="billy" class="preview">
-                        <button class="ui-button under billy-mac attr">
-                            THE BILLY MAC BURGER
+                        <img src="images/sides/ring-dingers.png" alt="rings" class="preview">
+                        <button class="ui-button under ring-dingers attr">
+                            RING-DINGERS
                         </button>
                     </td>
                     <td>
-                        <img src="images/entrees/billy-basic.png" alt="basic" class="preview">
-                        <button class="ui-button under billy-basic attr">
-                            THE BILLY BASIC
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="images/entrees/double-troubles.png" alt="doubles" class="preview">
-                        <button class="ui-button under double-troubles attr">
-                            DOUBLE TROUBLES
-                        </button>
-                    </td>
-                    <td>
-                        <img src="images/entrees/chicken-dinner.png" alt="chicken" class="preview">
-                        <button class="ui-button under chicken-dinner attr">
-                            CHICKEN DINNER
+                        <img src="images/sides/fries.png" alt="fries" class="preview">
+                        <button class="ui-button under fries attr">
+                            FRIES
                         </button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="images/entrees/hot-diggity-dogs.png" alt="diggity" class="preview">
-                        <button class="ui-button under hot-diggity-dogs attr">
-                            HOT DIGGITY DOGS
+                        <img src="images/sides/billy-mac-n-cheese.png" alt="mac-n" class="preview">
+                        <button class="ui-button under billy-mac-n-cheese attr">
+                            BILLY MAC-N-CHEESE
                         </button>
                     </td>
                     <td>
-                        <img src="images/entrees/chili-cheesers.png" alt="chili" class="preview">
-                        <button class="ui-button under chili-cheesers attr">
-                            CHILI CHEESERS
+                        <img src="images/sides/chili-cheese-fries.png" alt="cheese-fries" class="preview">
+                        <button class="ui-button under chili-cheese-fries attr">
+                            CHILI CHEESE FRIES
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/sides/sweet-potato-fries.png" alt="sweet-potato" class="preview">
+                        <button class="ui-button under sweet-potato-fries attr">
+                            SWEET POTATO FRIES
                         </button>
                     </td>
                 </tr>
@@ -303,43 +445,37 @@
             <table class="full-menu">
                 <tr>
                     <td>
-                        <img src="images/entrees/billy-mac.png" alt="billy" class="preview">
-                        <button class="ui-button under billy-mac attr">
-                            THE BILLY MAC BURGER
+                        <img src="images/desserts/happy-birthday-to-you-sundae.png" alt="b-day" class="preview">
+                        <button class="ui-button under happy-birthday-to-you-sundae attr">
+                            HAPPY BIRTHDAY TO YOU SUNDAE
                         </button>
                     </td>
                     <td>
-                        <img src="images/entrees/billy-basic.png" alt="basic" class="preview">
-                        <button class="ui-button under billy-basic attr">
-                            THE BILLY BASIC
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="images/entrees/double-troubles.png" alt="doubles" class="preview">
-                        <button class="ui-button under double-troubles attr">
-                            DOUBLE TROUBLES
-                        </button>
-                    </td>
-                    <td>
-                        <img src="images/entrees/chicken-dinner.png" alt="chicken" class="preview">
-                        <button class="ui-button under chicken-dinner attr">
-                            CHICKEN DINNER
+                        <img src="images/desserts/take-me-to-church-chocolate-sundae.png" alt="church" class="preview">
+                        <button class="ui-button under take-me-to-church-chocolate-sundae attr">
+                            TAKE ME TO CHURCH SUNDAE
                         </button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="images/entrees/hot-diggity-dogs.png" alt="diggity" class="preview">
-                        <button class="ui-button under hot-diggity-dogs attr">
-                            HOT DIGGITY DOGS
+                        <img src="images/desserts/coconutty-cocoa-chip-cookies.png" alt="cookies" class="preview">
+                        <button class="ui-button under coconutty-cocoa-chip-cookies attr">
+                            COCONUTTY COCOA-CHIP COOKIES
                         </button>
                     </td>
                     <td>
-                        <img src="images/entrees/chili-cheesers.png" alt="chili" class="preview">
-                        <button class="ui-button under chili-cheesers attr">
-                            CHILI CHEESERS
+                        <img src="images/desserts/triple-chocolate-brownies.png" alt="brownies" class="preview">
+                        <button class="ui-button under triple-chocolate-brownies attr">
+                            TRIPLE-CHOCOLATE BROWNIES
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/desserts/apple-fritters.png" alt="fritters" class="preview">
+                        <button class="ui-button under apple-fritters attr">
+                            APPPLE FRITTERS
                         </button>
                     </td>
                 </tr>
@@ -350,45 +486,46 @@
             <table class="full-menu">
                 <tr>
                     <td>
-                        <img src="images/entrees/billy-mac.png" alt="billy" class="preview">
-                        <button class="ui-button under billy-mac attr">
-                            THE BILLY MAC BURGER
+                        <img src="images/drinks/coke.png" alt="coke" class="preview">
+                        <button class="ui-button under coke attr">
+                            COCA-COLA
                         </button>
                     </td>
                     <td>
-                        <img src="images/entrees/billy-basic.png" alt="basic" class="preview">
-                        <button class="ui-button under billy-basic attr">
-                            THE BILLY BASIC
+                        <img src="images/drinks/sprite.png" alt="sprite" class="preview">
+                        <button class="ui-button under sprite attr">
+                            SPRITE
                         </button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="images/entrees/double-troubles.png" alt="doubles" class="preview">
-                        <button class="ui-button under double-troubles attr">
-                            DOUBLE TROUBLES
+                        <img src="images/drinks/dr-pepper.png" alt="dr-pepper" class="preview">
+                        <button class="ui-button under dr-pepper attr">
+                           DR. PEPPER
                         </button>
                     </td>
                     <td>
-                        <img src="images/entrees/chicken-dinner.png" alt="chicken" class="preview">
-                        <button class="ui-button under chicken-dinner attr">
-                            CHICKEN DINNER
+                        <img src="images/drinks/soft-drink.png" alt="soda" class="preview">
+                        <button class="ui-button under soft-drink attr">
+                            SOFT DRINKS
                         </button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="images/entrees/hot-diggity-dogs.png" alt="diggity" class="preview">
-                        <button class="ui-button under hot-diggity-dogs attr">
-                            HOT DIGGITY DOGS
+                        <img src="images/drinks/choc-shake.png" alt="choc-shake" class="preview">
+                        <button class="ui-button under choc-shake attr">
+                            CHOCOLATE MILKSHAKE
                         </button>
                     </td>
                     <td>
-                        <img src="images/entrees/chili-cheesers.png" alt="chili" class="preview">
-                        <button class="ui-button under chili-cheesers attr">
-                            CHILI CHEESERS
+                        <img src="images/drinks/pb-shake.png" alt="pb-shake" class="preview">
+                        <button class="ui-button under pb-shake attr">
+                            PEANUT-BUTTER SHAKE
                         </button>
                     </td>
+
                 </tr>
             </table>
         </div>
@@ -403,7 +540,11 @@
 </div>
 
 <footer>
-    <p>&copy; Blue Designs 2024 </p>
+    <img src="images/billy-mac-icon@2x.png" alt="icon">
+    <p>
+        &MediumSpace;&copy; Blue Designs 2024 
+    </p>
+    
 </footer>
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 

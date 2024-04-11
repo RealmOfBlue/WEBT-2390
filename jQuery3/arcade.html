@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billy Mac's Burgers and Rings</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/custom%202/jquery-ui.css">
+    <link href="jquery-ui-1.13.2.billy-mac/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="/resources/demos/external/jquery-mousewheel/jquery.mousewheel.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="ui-accordion desktop">
+            <h3>WHERE TO?
+                <img src="images/billy-mac-logo@2x.png" alt="bmlogo" class="logo" style="width: 20%;">
+            </h3>
+            <div>
+    
+                <ul class="desktop">
+                    
+                    <li><a href="index.html" onclick="window.open('index.html', '_self');">MENU</a></li>
+                    <li><a href="arcade.html" class="active" onclick="window.open('arcade.html', '_self');">ARCADE</a></li>
+                    <li><a href="about.html" onclick="window.open('about.html', '_self');">ABOUT</a></li>
+                    <li><a href="contact.html" onclick="window.open('contact.html', '_self');">CONTACT</a></li>
+                </ul>
+        
+            </div>
+          </div>
+    
+          <div class="mobile">
+            <button class="ui-button ui-widget ui-corner-all">Menu
+                <img src="images/billy-mac-logo@2x.png" alt="bmlogo" class="logo" style="width: 20%;">
+            </button>
+        <ul class="mobile">
+
+            <li><a href="index.html" onclick="window.open('index.html', '_self');">MENU</a></li>
+            <li><a href="arcade.html" class="active" onclick="window.open('arcade.html', '_self');">ARCADE</a></li>
+            <li><a href="about.html" onclick="window.open('about.html', '_self');">ABOUT</a></li>
+            <li><a href="contact.html" onclick="window.open('contact.html', '_self');">CONTACT</a></li>
+
+        </ul>
+        </div>
+    </header>
+    
+    <h1>BEST GAMES IN TOWN</h1>
+    <table class="most-wanted">
+
+        <tr>
+                <td>
+                    <img src="images/arcade/pac-man.png" alt="pac">
+                    <div class="ui-accordion item">
+                        <h3>PAC-MAN</h3>
+                        <div>
+                            <p> An arcade classic. 
+                                Play to consume dots in a haunted maze.
+                                Devour those dots, then devour a burger later.
+                            </p>
+                            <p>COINS - $.75 TOKENS - 3 </p>
+                            <button class="ui-button">GET A GAME PASS</button>
+                            <button class="ui-button">BUY TOKENS</button>
+                
+                        </div>
+                      </div>
+    
+                </td>
+                <td>
+                    <img src="images/arcade/mortal-kombat.png" alt="kombat">
+                    <div class="ui-accordion item">
+                        <h3>MORTAL KOMBAT</h3>
+                        <div>
+                            <p> Get over here! 
+                                Fight your opponent to the death and finish 
+                                them with style in this iconic
+                                2D fighter.
+                            </p>
+                            <p>COINS - $.25 TOKENS - 1 </p>
+                            <button class="ui-button">GET A GAME PASS</button>
+                            <button class="ui-button">BUY TOKENS</button>
+                
+                        </div>
+                      </div>
+    
+                </td>
+                <td>
+                    <img src="images/arcade/galaga.png" alt="galaga">
+                    <div class="ui-accordion item">
+                        <h3>GALAGA</h3>
+                        <div>
+                            <p> Control a spaceship to fend off waves of 
+                                alien invaders. Explosions and abductioms galore!
+
+                            </p>
+                            <p>COINS - $.50 TOKENS - 2 </p>
+                            <button class="ui-button">GET A GAME PASS</button>
+                            <button class="ui-button">BUY TOKENS</button>
+                
+                        </div>
+                      </div>
+    
+                </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <img src="images/vrcade/beat-saber.png" alt="saber">
+                <div class="accordion item">
+                    <h3>BEAT SABER</h3>
+                    <div>
+                        <p> 
+                            A rythym-based VR game where you slice through each note.
+                            Slash to whatever beat you want with our 
+                            custom library of over 10,000 songs.
+                        </p>
+                        <p> GAME PASS - $10/hr. </p>
+                        <button class="ui-button">GET A GAME PASS</button>
+            
+                    </div>
+                  </div>
+
+            </td>
+            <td>
+                <img src="images/vrcade/super-hot.png" alt="super-hot">
+                <div class="accordion item">
+                    <h3>SUPERHOT</h3>
+                    <div>
+                        <p> The hottest VR game to date.
+                            Play in a time-bending, action-packed world 
+                            where time moves only when you move.
+                        </p>
+                        <p> GAME PASS - $10/hr. </p>
+                        <button class="ui-button">GET A GAME PASS</button>
+            
+                    </div>
+                  </div>
+
+            </td>
+            <td>
+                <img src="images/vrcade/tetris-effect.png" alt="tetris">
+                <div class="accordion item">
+                    <h3>TETRIS EFFECT</h3>
+                    <div>
+                        <p>A VR spin on the classic puzzle game.
+                            Get immersed in a mesmerizing experience 
+                            and solve falling block puzzles set to music.
+                        </p>
+                        <p> GAME PASS - $10/hr. </p>
+                        <button class="ui-button">GET A GAME PASS</button>
+            
+                    </div>
+                  </div>
+            </td>
+    </tr>
+    
+    </table>
+
+
+
+
+    <div class="most-wanted-mobile">
+
+    
+                    <img src="images/arcade/pac-man.png" alt="pac">
+                    <div class="ui-accordion item">
+                        <h3>PAC-MAN</h3>
+                        <div>
+                            <p> An arcade classic. 
+                                Play to consume dots in a haunted maze.
+                                Devour those dots, then devour a burger later.
+                            </p>
+                            <p>COINS - $.75 TOKENS - 3 </p>
+                            <button class="ui-button">GET A GAME PASS</button>
+                            <button class="ui-button">BUY TOKENS</button>
+                
+                        </div>
+                      </div>
+    
+                    <img src="images/arcade/mortal-kombat.png" alt="kombat">
+                    <div class="ui-accordion item">
+                        <h3>MORTAL KOMBAT</h3>
+                        <div>
+                            <p> Get over here! 
+                                Fight your opponent to the death and finish 
+                                them with style in this iconic
+                                2D fighter.
+                            </p>
+                            <p>COINS - $.25 TOKENS - 1 </p>
+                            <button class="ui-button">GET A GAME PASS</button>
+                            <button class="ui-button">BUY TOKENS</button>
+                
+                        </div>
+                      </div>
+    
+        
+                    <img src="images/arcade/galaga.png" alt="galaga">
+                    <div class="ui-accordion item">
+                        <h3>GALAGA</h3>
+                        <div>
+                            <p> Control a spaceship to fend off waves of 
+                                alien invaders. Explosions and abductioms galore!
+
+                            </p>
+                            <p>COINS - $.50 TOKENS - 2 </p>
+                            <button class="ui-button">GET A GAME PASS</button>
+                            <button class="ui-button">BUY TOKENS</button>
+                
+                        </div>
+                      </div>
+    
+            
+                <img src="images/vrcade/beat-saber.png" alt="saber">
+                <div class="accordion item">
+                    <h3>BEAT SABER</h3>
+                    <div>
+                        <p> 
+                            A rythym-based VR game where you slice through each note.
+                            Slash to whatever beat you want with our 
+                            custom library of over 10,000 songs.
+                        </p>
+                        <p> GAME PASS - $10/hr. </p>
+                        <button class="ui-button">GET A GAME PASS</button>
+            
+                    </div>
+                  </div>
+
+        
+                <img src="images/vrcade/super-hot.png" alt="super-hot">
+                <div class="accordion item">
+                    <h3>SUPERHOT</h3>
+                    <div>
+                        <p> The hottest VR game to date.
+                            Play in a time-bending, action-packed world 
+                            where time moves only when you move.
+                        </p>
+                        <p> GAME PASS - $10/hr. </p>
+                        <button class="ui-button">GET A GAME PASS</button>
+            
+                    </div>
+                  </div>
+
+                <img src="images/vrcade/tetris-effect.png" alt="tetris">
+                <div class="accordion item">
+                    <h3>TETRIS EFFECT</h3>
+                    <div>
+                        <p>A VR spin on the classic puzzle game.
+                            Get immersed in a mesmerizing experience 
+                            and solve falling block puzzles set to music.
+                        </p>
+                        <p> GAME PASS - $10/hr. </p>
+                        <button class="ui-button">GET A GAME PASS</button>
+            
+                    </div>
+                  </div>
+    
+    
+</div>
+
+
+
+
+
+
+    <h1>FULL CATALOG</h1>
+   
+
+    <div class="ui-accordion item-full">
+        <h2>ARCADE</h2>
+        <div> 
+            <table class="full-menu">
+                <tr>
+                    <td>
+                        <img src="images/arcade/pac-man.png" alt="pac" class="preview">
+                        <div class="ui-accordion preview">
+                            <h3>PAC-MAN</h3>
+                            <div>
+                                <p> An arcade classic. 
+                                    Play to consume dots in a haunted maze.
+                                    Devour those dots, then devour a burger later.
+                                </p>
+                                <p>COINS - $.75 TOKENS - 3 </p>
+                                <button class="ui-button">GAME PASS</button>
+                                <button class="ui-button">TOKENS</button>
+                    
+                            </div>
+                          </div>
+        
+                    </td>
+                    <td>
+                        <img src="images/arcade/mortal-kombat.png" alt="kombat" class="preview">
+                        <div class="ui-accordion preview">
+                            <h3>MK</h3>
+                            <div>
+                                <p> Get over here! 
+                                    Fight your opponent to the death and finish 
+                                    them with style in this iconic
+                                    2D fighter.
+                                </p>
+                                <p>COINS - $.25 TOKENS - 1 </p>
+                                <button class="ui-button">GAME PASS</button>
+                                <button class="ui-button">TOKENS</button>
+                    
+                            </div>
+                          </div>
+        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/arcade/galaga.png" alt="galaga" class="preview">
+                        <div class="ui-accordion preview">
+                            <h3>GALAGA</h3>
+                            <div>
+                                <p> Control a spaceship to fend off waves of 
+                                    alien invaders. Explosions and abductioms galore!
+    
+                                </p>
+                                <p>COINS - $.50 TOKENS - 2 </p>
+                                <button class="ui-button">GAME PASS</button>
+                                <button class="ui-button">TOKENS</button>
+                    
+                            </div>
+                          </div>
+        
+                    </td>
+                    <td>
+                            <img src="images/arcade/frogger.png" alt="frogger" class="preview">
+                            <div class="ui-accordion preview">
+                                <h3>FROGGER</h3>
+                                <div>
+                                    <p> Test your timing as you
+                                        navigate a frog through traffic and 
+                                        hazards to reach safe lily pads.
+        
+                                    </p>
+                                    <p>COINS - $.25 TOKENS - 1 </p>
+                                    <button class="ui-button">GAME PASS</button>
+                                    <button class="ui-button">TOKENS</button>
+                        
+                                </div>
+                              </div>
+            
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/arcade/street-fighter.png" alt="street" class="preview">
+                        <div class="ui-accordion preview">
+                            <h3>ST. FIGHTER II</h3>
+                            <div>
+                                <p> Choose from a roster of unique fighters,
+                                     and go toe-to-toe against your opponent
+                                    in this legendary fighting game.
+    
+                                </p>
+                                <p>COINS - $.25 TOKENS - 1 </p>
+                                <button class="ui-button">GAME PASS</button>
+                                <button class="ui-button">TOKENS</button>
+                    
+                            </div>
+                          </div>
+        
+                    </td>
+                    <td>
+                        <img src="images/arcade/donkey-kong.png" alt="kong" class="preview">
+                        <div class="ui-accordion preview">
+                            <h3>DONKEY KONG</h3>
+                            <div>
+                                <p>
+                                    Control Jumpman (AKA: Mario) to 
+                                    dodge obstacles and save the damsel in distress 
+                                    from the clutches of an angry ape.
+    
+                                </p>
+                                <p>COINS - $.50 TOKENS - 2 </p>
+                                <button class="ui-button">GAME PASS</button>
+                                <button class="ui-button">TOKENS</button>
+                    
+                            </div>
+                          </div>
+        
+                </td>
+                </tr>
+            </table>
+        </div>
+        <h2>VRCADE</h2>
+        <div> 
+            <table class="full-menu">
+                <tr>
+                    <td>
+                        <img src="images/vrcade/beat-saber.png" alt="saber" class="preview">
+                        <div class="ui-accordion preview">
+                            <h3>BEAT SABER</h3>
+                            <div>
+                                <p> 
+                                    A rythym-based VR game where you slice through each note.
+                                    Slash to whatever beat you want with our 
+                                    custom library of over 10,000 songs.
+                                </p>
+                                <p> GAME PASS - $10/hr. </p>
+                                <button class="ui-button">GAME PASS</button>
+                    
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                        <img src="images/vrcade/super-hot.png" alt="super-hot" class="preview">
+                        <div class="ui-accordion preview">
+                            <h3>SUPERHOT</h3>
+                            <div>
+                                <p> The hottest VR game to date.
+                                    Play in a time-bending, action-packed world 
+                                    where time moves only when you move.
+                                </p>
+                                <p> GAME PASS - $10/hr. </p>
+                                <button class="ui-button">GAME PASS</button>
+                        
+                            </div>
+                        </div>
+            
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/vrcade/tetris-effect.png" alt="tetris" class="preview">
+                        <div class="accordion item preview">
+                            <h3>TETRIS EFFECT</h3>
+                            <div>
+                                <p>A VR spin on the classic puzzle game.
+                                    Get immersed in a mesmerizing experience 
+                                    and solve falling block puzzles set to music.
+                                </p>
+                                <p> GAME PASS - $10/hr. </p>
+                                <button class="ui-button">GAME PASS</button>
+                    
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                        <img src="images/vrcade/elven-assassin.png" alt="elven" class="preview">
+                        <div class="ui-accordion item preview">
+                            <h3>ELVEN ASSN.</h3>
+                            <div>
+                                <p>Ready, aim, fire! 
+                                    An exhilarating archery game where 
+                                    players take on the role of an elven archer defending against 
+                                    hordes of invading orcs and other mythical creatures.
+                                </p>
+                                <p> GAME PASS - $10/hr. </p>
+                                <button class="ui-button">GAME PASS</button>
+                    
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/vrcade/keep-talking.png" alt="keep-talking" class="preview">
+                        <div class="ui-accordion item preview">
+                            <h3>KEEP TALKING</h3>
+                            <div>
+                                <p>A cooperative bomb-defusing game where one player wears a VR headset to 
+                                    disarm a bomb, while their teammates use a manual to guide them 
+                                    through the process. Try not to explode.
+                                </p>
+                                <p> GAME PASS - $10/hr. </p>
+                                <button class="ui-button">GAME PASS</button>
+                    
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                        <img src="images/vrcade/resident-evil.png" alt="evil" class="preview">
+                        <div class="accordion item preview">
+                            <h3>RES. EVIL 4</h3>
+                            <div>
+                                <p>A VR spin on the classic puzzle game.
+                                    Get immersed in a mesmerizing experience 
+                                    and solve falling block puzzles set to music.
+                                </p>
+                                <p> GAME PASS - $10/hr. </p>
+                                <button class="ui-button">GAME PASS</button>
+                    
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+<img src="images/ai-background.jpeg" alt="interior" class="interior" style="width: 96%; margin-top: 3%;">
+    </div>
+<div class="selected">
+    <img src="images/arcade-interior2.png" alt="arcade-vibe" class="arcade">
+        <button class="ui-button big">
+            GET A GAME PASS
+        </button>
+</div>
+
+<footer>
+    <img src="images/billy-mac-icon@2x.png" alt="icon">
+    <p>
+        &MediumSpace;&copy; Blue Designs 2024 
+    </p>
+    
+</footer>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+</body>
+</html>
